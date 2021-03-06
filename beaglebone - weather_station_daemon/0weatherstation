@@ -1,0 +1,6 @@
+# Run the hourly jobs
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
+*/2 * * * * tom /usr/bin/scp tombrix:/srv/http/weatherstation/pwmvalues /home/tom/pwmvalues
+*/2 * * * * tom /usr/bin/scp tombrix:/srv/http/weatherstation/servovalues /home/tom/servovalues

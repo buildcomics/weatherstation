@@ -1,0 +1,2 @@
+SUBSYSTEMS=="usb", KERNEL=="ttyACM[0-9]*", ATTRS{idVendor}=="2341", ATTRS{idProduct}=="0043", SYMLINK+="servo_controller", MODE:="0666", GROUP="uucp", TAG+="systemd"
+SUBSYSTEMS=="usb", KERNEL=="ttyACM[0-9]*", ATTRS{idVendor}=="2a03", ATTRS{idProduct}=="0042", SYMLINK+="pwm_controller", MODE:="0666", GROUP="uucp", TAG+="systemd"

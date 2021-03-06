@@ -1,0 +1,25 @@
+<?php
+date_default_timezone_set('Europe/Amsterdam');
+$GLOBALS["client_id"] = "";
+$GLOBALS["client_secret"] = "";
+$GLOBALS["test_username"] = "";
+$GLOBALS["test_password"] = "";
+
+$GLOBALS["mysql_server"] = "localhost";
+$GLOBALS["mysql_user"] = "root";
+$GLOBALS["mysql_pass"] = "";
+$GLOBALS["mysql_db"] = "weatherstation";
+
+$GLOBALS["pwmvalues"] = "/srv/http/weatherstation/pwmvalues";
+$GLOBALS["servovalues"] = "/srv/http/weatherstation/servovalues";
+
+$GLOBALS["lat"] = "xx.xxxx";
+$GLOBALS["long"] = "x.xxxxxx";
+
+$GLOBALS["w_url"] = "http://api.wunderground.com/api/xxxx/conditions/q/NL/City.json";
+$GLOBALS["kp_url"] = "http://services.swpc.noaa.gov/text/3-day-geomag-forecast.txt";
+$GLOBALS["pollen_url"] = "https://www.weeronline.nl/Go/ExternalWidgetsNew/TwoDaysCityPollen?e";
+$GLOBALS["openweathermap_url"] = "http://api.openweathermap.org/data/2.5/weather?&appid=xxxxx&units=metric";
+$GLOBALS["luchtmeenet_url"]="https://api.luchtmeetnet.nl/open_api/measurements?order_direction=desc&order_by=timestamp_measured&station_number=";
+$GLOBALS["water_url"] = "https://waterinfo.rws.nl/api/Download/CSV?expertParameter=Waterhoogte___20Oppervlaktewater___20t.o.v.___20Normaal___20Amsterdams___20Peil___20in___20cm&locationSlug=IJgeul-stroommeetpaal(SPY)&timehorizon=-48,48";
+?>

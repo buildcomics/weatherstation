@@ -1,0 +1,10 @@
+[Unit]
+Description=Fritz Speed logger
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python -u /srv/python/fritz_bandwidth/fritz_bandwidth.py
+
+[Install]
+WantedBy=multi-user.target

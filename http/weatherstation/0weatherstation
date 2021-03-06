@@ -1,0 +1,8 @@
+# Run the hourly jobs
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=
+*/10 * * * * tom /usr/bin/php /srv/http/weatherstation/tenminutes.php >> /home/tom/log/tenminutes.log 2>&1
+1,31 * * * * tom /usr/bin/php /srv/http/weatherstation/thirtyminutes.php >> /home/tom/log/thirtyminutes.log 2>&1
+1 * * * * tom /usr/bin/php /srv/http/weatherstation/sixtyminutes.php >> /home/tom/log/sixtyminutes.log 2>&1
+ 

@@ -1,0 +1,11 @@
+[Unit]
+Description=weather_station
+
+[Service]
+Type=simple
+ExecStart=/home/tom/weather_station_daemon_arm /dev/pwm_controller /dev/servo_controller
+ExecStop=/usr/bin/killall weather_station_daemon_arm
+
+[Install]
+WantedBy=multi-user.target
+

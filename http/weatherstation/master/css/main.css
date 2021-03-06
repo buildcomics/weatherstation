@@ -1,0 +1,15 @@
+body {
+	padding-top: 65px;
+}
+.filestatus {
+	padding: 1em;
+}
+.meter-select {
+	font-family: "Lucida Console",Monaco, monospace;
+}
+.deletebutton {
+	visibility: hidden;
+}
+.projrunrow:hover .deletebutton {
+	visibility: visible;
+}
