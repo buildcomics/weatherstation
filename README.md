@@ -1,5 +1,5 @@
 # 3D Printer Control MKII
-This is the GitHub repository for the project: https://buildcomics.com// \
+This is the GitHub repository for the project: https://buildcomics.com/meters/final-weatherstation-quest/ \
 You will also find the "instructions"  there!
 
 It contains Arduino code for the uno and the mega, code for the beaglebone controlling the two arduinos, python code to collect bandwidth data and a ton of PHP code to get data and display it and store it.\
