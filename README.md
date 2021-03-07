@@ -1,4 +1,4 @@
-# 3D Printer Control MKII
+# Ultimate Weather Station Code Dump
 This is the GitHub repository for the project: https://buildcomics.com/meters/final-weatherstation-quest/ \
 You will also find the "instructions"  there!
 
